@@ -1,0 +1,120 @@
+OTA:
+
+Types of OTA
+
+1.	Full OTA
+2.	Diff OTA
+Full OTA:
+
+If you are on build 11 and you upgrade to 12 that is Full OTA
+
+
+Diff OTA:
+
+Monday               100     -> stable    tested ok
+Tuesday                200     -> unstable implemented a new feature – 30 lines
+Wednesday          300     unstable –30 lines
+Thursday                400   new feature is passed.
+Friday                     500  unstable
+
+
+You will take Monday’s build and push Thursday diff build on top of it
+
+Pull changes which are included after 100 and before 400
+
+Force OTA            device should be idle
+Background OTA   device will download the build and install. Then wait for user to restart.
+
+149
+150
+
+
+Full OTA  force/regular
+Diff Ota - force/regular
+
+
+100 lines  stable
+
+Developer 10 lines
+
+600  10000
+
+
+Monday  300
+
+Monday evening 10300
+
+601 Tuesday
+Calling  designated to a dev
+ Sit along with dev .
+
+Developer witre the code and you test it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+January  announced this device will be available in March. 10 features
+
+
+5 features are ready and stable
+
+
+Hardware is ready by January
+Some of the features are not yet fully developed
+
+
+Flash stable build from January on all devices and ship them to customers
+
+Once customer connects to wifi, device will go through force ota and update to latest build.
+
+
+
+
+January’s build
+
+March latest software which has all the features promised during the launch.
+
+
+Testing OTA channel/server
+
+150
+List of devices : 123 ,123, 2123142, 23r42, 245245, 76372
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
